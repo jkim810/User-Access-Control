@@ -1,0 +1,11 @@
+PERMIT::file1
+PERMIT:userA:
+DENY:userB:file4
+PERMIT:userB:file2
+PERMIT:userB:file3
+DENY:userC:file1
+PERMIT:userC:file3
+PERMIT:userD:
+DENY:userD:file3
+DENY:userD:file4
+DENY:userE:
